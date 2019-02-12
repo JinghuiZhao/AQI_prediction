@@ -21,11 +21,11 @@ For this study, the data science pipeline was designed around scalability, cloud
 The models we will build are:
 
 **Multivariate Linear Regression:
-Multivariate regression is a technique that estimates a single regression model with multiple independent variables contributing to the dependent variable and hence multiple coefficients to determine and complex computation due to the added variables. **
+Multivariate regression is a technique that estimates a single regression model with multiple independent variables contributing to the dependent variable and hence multiple coefficients to determine and complex computation due to the added variables.**
 
 **Random Forest: 
 A Random Forest Regression is an ensemble technique capable of performing regression task with the use of multiple decision trees and a technique called Bootstrap Aggregation.
-Due to the instability of a single regression tree, the random forest regression model estimates the desired Regression Tree on many bootstrap samples (re-sample the data many times with replacement and re-estimate the model) and make the final prediction as the average of the predictions across the trees. **
+Due to the instability of a single regression tree, the random forest regression model estimates the desired Regression Tree on many bootstrap samples (re-sample the data many times with replacement and re-estimate the model) and make the final prediction as the average of the predictions across the trees.**
 
 **Gradient Boosting Tree: 
 A Gradient Boosting Tree Regression is another ensemble technique. Comparing to Random Forest, Gradient Boosting Tree is based on weak learners(high bias and low variance). Therefore, weak learners are shallow trees. Boosting reduces error by reducing the bias.**
