@@ -1,6 +1,5 @@
-# AQI_prediction
+# AQI prediction
 
-# Spark_AirQualityIndexClassification
 
 ## Problem Description
 
