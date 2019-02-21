@@ -2,6 +2,12 @@
 
 
 ## System Workflow 
+For this study, the data science pipeline was designed around scalability, cloud resources and distributed methods. In this case, we developed our pipeline by using Amazon Web Service (AWS), for AWS can provide high availability and scalability and makes its components including storage and processing engines to be compatible.   
+
+To be more specific, our preprocessed data was stored in AWS Simple Storage Service(S3) bucket, then data was transferred and loaded into the  MongoDB on AWS Elastic Compute Cloud (EC2). Later, our data was processed  using Apache Spark on AWS Elastic MapReduce (EMR). The MongoDB instances setting and EMR cluster setting showed in Table 3 and Table 4 respectively. 
+
+Once we connect with AWS EMR, the data was processed using the following six steps :
+1) Data transfer, 2) RDD creation, 3) DataFrame create, 4) DataFrame processing ,5) Machine Learning model training  6) Prediction. 
 
 ![alt text](https://github.com/JinghuiZhao/AQI_prediction/blob/master/workflow.png)
 
