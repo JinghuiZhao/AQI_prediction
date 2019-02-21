@@ -1,15 +1,6 @@
 # AQI prediction
 
 
-## Problem Description
-
-Due to the rapid global Industrialization and urbanization process, environmental pollution issues such as air pollution have become more and more severe. The problem of air pollution is much severe in California.  Air quality forecasting is an effective way of protecting public health by providing an early warning against harmful air pollutants.
-
-The Air Quality Index (AQI) is an index for reporting daily air quality and it can be used to warn the public when air pollution is dangerous. For instance,  as the AQI increases, the public is likely to experience increasingly severe adverse health effects. United States Environmental Protection Agency (US EPA) calculated the AQI for five major pollutants: Particulate Matter(PM), Sulphur dioxide (SO2), Carbon monoxide (CO), Nitrogen dioxide (NO2), ground-level Ozone (O3). 
-
-In this study, we focus on using Big Data technology (MongoDB, Apache Spark, AWS) and machine learning methods to model and predict California daily AQI with better computation efficiency on the basis of air pollution data. By doing this, this study aims to give public warning in advance and let the public sector to engage in pre-event planning.
-
-
 ## System Workflow 
 
 The data set will be dealing is from bigQuery Dataset on Kaggle: https://www.kaggle.com/epa/epa-historical-air-quality
