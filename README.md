@@ -12,7 +12,12 @@ For this study, the data science pipeline was designed around scalability, cloud
 To be more specific, our preprocessed data was stored in AWS Simple Storage Service(S3) bucket, then data was transferred and loaded into the MongoDB on AWS Elastic Compute Cloud (EC2). And then the data was processed on Amazon SageMaker notebooks backed by Apache Spark in Amazon AWS Elastic MapReduce (EMR). 
 
 Once we connect with AWS EMR, in the SageMaker Notebook the data was processed using the following six steps :
-1) Read data from mongoDB, 2)Spark Schema and DataFrame create, 3) DataFrame processing ,4) Machine Learning model training  5) Prediction. 6) Compare running time efficiency on different EMR instances.( Different machines for master/slave nodes)
+* Read data from mongoDB
+* Spark Schema and DataFrame create
+* DataFrame processing 
+* Machine Learning model training
+* Prediction
+* Compare running time efficiency on different EMR instances.( Different machines for master/slave nodes)
 
 ![alt text](https://github.com/JinghuiZhao/AQI_prediction/blob/master/workflow.png)
 
