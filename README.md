@@ -2,7 +2,7 @@
 
 This project is aimed at predicting the air quality using the pass information about air attributes, and implementing a efficient way of processing large dataset using mongoDB, EMR and SageMaker. The dataset we used is from Kaggle: https://www.kaggle.com/epa/epa-historical-air-quality
 
-According to the concentration of the daily CO2, CO, O3, NO, NO2, PM2.5, SO2, PM10, besides that, we have air pressure, temperature, wind velocity. We created label like the Air quality index of the day before, We aggregated by site/city and computed the average of the pollutants concentration and the trend of the change of the concentrations. We also did feature engineering like summing the number of big cities near the measuring site. We ordered the data by date and did train test split of ratio of 0.7 and 0.3. 
+According to the concentration of the daily CO2, CO, O3, NO, NO2, PM2.5, SO2, PM10, besides that, we have air pressure, temperature, wind velocity. We created label like the Air quality index of the day before, We aggregated by site/city and computed the average of the pollutants concentration and the trend of the change of the concentrations. We also did feature engineering like summing the number of big cities near the measuring site. We ordered the data by date and did train test split of ratio 0.7 and 0.3. 
 
 
 
